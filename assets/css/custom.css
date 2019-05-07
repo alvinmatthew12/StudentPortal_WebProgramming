@@ -1,0 +1,179 @@
+body {
+	background-color: #d2e8f5;
+}
+
+hr {
+  	margin-top: -20px;
+ 	margin-bottom: 5px;
+  	border: 1px solid rgba(0, 0, 0, 0.1);
+  	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.simple-text{
+	text-transform: uppercase;
+	padding: 0.5rem 0;
+	display: block;
+	white-space: nowrap;
+	color: #324252;
+	text-decoration: none;
+	font-weight: 400;
+	line-height: 30px;
+	overflow: hidden;
+}
+
+.nav-link {
+  	display: block;
+  	padding: 0rem 1rem;
+}
+
+.nav-link:hover, .nav-link:focus {
+	color: #6c757d;
+  	text-decoration: none;
+}
+
+.login-container,
+.register-container {
+
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+
+
+/*404 not found*/
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#notfound {
+  position: relative;
+  height: 100vh;
+}
+
+#notfound .notfound {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound {
+  max-width: 520px;
+  width: 100%;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.notfound .notfound-404 {
+  position: relative;
+  height: 200px;
+  margin: 0px auto 20px;
+  z-index: -1;
+}
+
+.notfound .notfound-404 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 236px;
+  font-weight: 200;
+  margin: 0px;
+  color: #211b19;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.notfound .notfound-404 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #211b19;
+  background: #fff;
+  padding: 10px 5px;
+  margin: auto;
+  display: inline-block;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.notfound a {
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 13px 23px;
+  background: #ff6300;
+  font-size: 18px;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.notfound a:hover {
+  color: #f9a426;
+  background: #324252;
+}
+
+@media only screen and (max-width: 767px) {
+  .notfound .notfound-404 h1 {
+    font-size: 148px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .notfound .notfound-404 {
+    height: 148px;
+    margin: 0px auto 10px;
+  }
+  .notfound .notfound-404 h1 {
+    font-size: 86px;
+  }
+  .notfound .notfound-404 h2 {
+    font-size: 16px;
+  }
+  .notfound a {
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+}
+/*end 404 not found*/
+
+
+table {
+  font-size: 12px !important;
+}
+
+
+.text-alert-cs {
+  font-size: 13px !important;
+}
+
+.badge-alert {
+  font-size: 12px !important;
+  cursor: pointer;
+}
+
+.badge-15 {
+  font-size: 15px !important;
+}
+
+.badge-12 {
+  font-size: 12px !important;
+}
